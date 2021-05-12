@@ -5,13 +5,13 @@
   * song.txt
  - Hardcore task - separate repository: https://github.com/ValeryAD/Git-hardcore.git
 ## Maven - Maven build tool
-  * I Can Win
+  * pom.xml
 ## Jenkins - Continuous integration with Jenkins
   * Brin It On
     - config.xml
   * I Can Win
-    -config.xml
+    - config.xml
   * ValeryPC
-    -config.xml
+    - config.xml
   * jenkins.xml
   * thinBackup.xml
