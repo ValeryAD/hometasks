@@ -4,9 +4,9 @@
   * pursuit.txt
   * song.txt
  - Hardcore task - separate repository: https://github.com/ValeryAD/Git-hardcore.git
-## Maven - Maven build tool
-  * pom.xml
-## Jenkins - Continuous integration with Jenkins
+## Java\src\main\java\com\github\valeryad:
+  * classes - Java Classes
+## Jenkins - Continuous integration with Jenkins:
   * Brin It On
     - config.xml
   * I Can Win
@@ -15,3 +15,5 @@
     - config.xml
   * jenkins.xml
   * thinBackup.xml
+## Maven - Maven build tool:
+  * pom.xml
