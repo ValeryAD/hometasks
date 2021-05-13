@@ -10,6 +10,7 @@
 * fundamentals - Java Fundamentals:
   - maintask
   - optionaltask
+* javacollections - Java Collections (Taxi station)
 ## Jenkins - Continuous integration with Jenkins:
   * Brin It On
     - config.xml
