@@ -5,10 +5,11 @@
   * song.txt
  - Hardcore task - separate repository: https://github.com/ValeryAD/Git-hardcore.git
 ## Java\src\main\java\com\github\valeryad:
-* fundamentals - Java Fundamentals
+* classes - Java Classes
+* cleancode - Java Clean Code 
+* fundamentals - Java Fundamentals:
   - maintask
   - optionaltask
-* classes - Java Classes
 ## Jenkins - Continuous integration with Jenkins:
   * Brin It On
     - config.xml
