@@ -17,7 +17,7 @@ public class TaxiStation {
     public BigDecimal countVehiclesValue() {
         BigDecimal vehiclesValue = new BigDecimal("0");
         vehiclesValue.setScale(2, RoundingMode.HALF_UP);
-        Properties pricesByModel = new PropertiesLoader().getPrices();
+        Properties pricesByModel = PropertiesLoader.getInstance().getPrices();
         for (Vehicle vehicle : vehicles) {
             vehiclesValue = vehiclesValue.add(new BigDecimal((String) pricesByModel.get(vehicle.getModel())));
         }

@@ -13,10 +13,21 @@ public class PropertiesLoader {
     private static final String PATH_CONSUMPTION_PROPERTIES = "data/consumption.properties";
     private static final String PATH_MAXSPEED_PROPERTIES = "data/maxspeed.properties";
 
+    private static Properties properties;
+    private static PropertiesLoader instance;
+
+    private PropertiesLoader(){
+        properties = new Properties();
+    }
+
+    public static PropertiesLoader getInstance(){
+        if (instance == null){
+            instance = new PropertiesLoader();
+        }
+        return instance;
+    }
 
     private Properties loadProperties(String path) {
-        Properties properties = new Properties();
-
         File file = new File(path);
         try (InputStream inputStream = new FileInputStream(file)) {
             properties.load(inputStream);

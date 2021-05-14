@@ -18,7 +18,7 @@ public class CarCreator {
 
 
     public CarCreator() {
-        propertiesLoader = new PropertiesLoader();
+        propertiesLoader = PropertiesLoader.getInstance();
     }
 
     public List<Vehicle> createVehicles() {
