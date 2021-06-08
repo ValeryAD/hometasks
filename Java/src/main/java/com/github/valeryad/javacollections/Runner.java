@@ -20,7 +20,7 @@ public class Runner {
             "Please note that the min and max values of maximum speed of vehicles in the taxi station are:\n" +
             "%d and %d.\n" +
             "You may type in values between them inclusively.\n";
-    private static final String WRONG_SPEED_VALUE_MESSAGE = "Please type in integer values between %d and %d";
+    private static final String WRONG_SPEED_VALUE_MESSAGE = "Please type in integer values between %d and %d\n";
     private static final String NO_SUCH_VEHICLE_MESSAGE = "There's no vehicle with maximum speed withing specified range in the taxi station";
     private static final String VEHICLE_CONSUMPTION_REPORT = "%04d %12s %10s, fuel consumption = %3.1f l/100km\n";
     private static final String VEHICLE_SPECIFIED_SPEED_REPORT = "\n%04d %s %s, max speed = %3d km/h\n";

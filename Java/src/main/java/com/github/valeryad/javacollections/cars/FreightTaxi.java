@@ -2,7 +2,7 @@ package com.github.valeryad.javacollections.cars;
 
 
 public class FreightTaxi extends Vehicle {
-    int loadCapacity;
+    private int loadCapacity;
 
     public FreightTaxi() {
     }

@@ -9,7 +9,7 @@ public class Student extends Person {
     private Date dateOfBirth;
     private Address address;
     private Faculty faculty;
-    private int yearOfStudy; // Курс
+    private int yearOfStudy;
     private String group;
 
     public Student() {

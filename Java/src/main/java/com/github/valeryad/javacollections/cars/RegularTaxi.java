@@ -3,7 +3,7 @@ package com.github.valeryad.javacollections.cars;
 
 public class RegularTaxi extends Vehicle {
 
-    int passengerCapacity;
+    private int passengerCapacity;
 
     public RegularTaxi() {
     }
